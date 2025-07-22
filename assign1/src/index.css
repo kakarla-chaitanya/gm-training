@@ -1,0 +1,38 @@
+.assign-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+}
+.assign-flex > .assign-buttons{
+  display: flex;
+  gap:20px
+}
+.assign-flex >.assign-buttons>button{
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: gray solid 0.5px ;
+  color: white;
+  font-size: large;
+}
+.assign-flex >.assign-buttons > .assign-button-male{
+  background-color: rgb(54, 54, 148);
+}
+.assign-flex >.assign-buttons > .assign-button-female{
+  background-color: #E68BBE;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.card >img{
+  height: 200px;
+  width: 200px;
+  object-fit:contain;
+}

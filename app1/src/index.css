@@ -1,0 +1,77 @@
+body,.app{
+  margin: 0px;
+  height: 100vh;
+}
+.app{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.flex{
+  background-color: beige;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.header-flex-ending{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.header-flex-ending > div{
+  font-weight: bold;
+  font-size:larger;
+  border-radius: 50%;
+  padding: 5px 8px;
+  border: 1px solid black;
+}
+.header-flex-ending > .notify{
+  background-color: chocolate;
+} 
+.header-flex-ending > .profile{
+  background-color:cornflowerblue;
+}
+.body{
+  flex-grow: 1;
+  background-color: cadetblue;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  padding:20px;
+  /* flex-wrap: wrap; */
+
+}
+.body > div{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: whitesmoke;
+}
+.footer{
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+.footer > .footer-middle{
+  margin:0px auto;
+}
+.footer > .footer-end{
+  font-size:medium;
+  background-color: aqua;
+  color: black;
+  padding: 5px 7px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
